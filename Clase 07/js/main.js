@@ -130,33 +130,34 @@
 // numeros.sort((a, b) => b - a);
 // console.log(numeros);
 
-const usuarios = [
-    {
-        nombre: "Carpi",
-        edad: 29
-    },
-    {
-        nombre: "Alesio",
-        edad: 30
-    },
-    {
-        nombre: "Nico",
-        edad: 25
-    }
-]
+// const usuarios = [
+//     {
+//         nombre: "Carpi",
+//         edad: 29
+//     },
+//     {
+//         nombre: "Alesio",
+//         edad: 30
+//     },
+//     {
+//         nombre: "Nico",
+//         edad: 25
+//     }
+// ]
 
 //? ordenar objetos en base a alguna propiedad
 // usuarios.sort((a, b) => a.edad - b.edad);
 // console.log(usuarios);
 
-usuarios.sort((a, b) => {
-    if (a.nombre < b.nombre) {
-        return 1;
-    } else if (a.nombre > b.nombre) {
-        return -1;
-    } else {
-        return 0;
-    }
-})
+//? ordenar alfabéticamente
+// usuarios.sort((a, b) => {
+//     if (a.nombre > b.nombre) {
+//         return 1;
+//     } else if (a.nombre < b.nombre) {
+//         return -1;
+//     } else {
+//         return 0;
+//     }
+// })
 
-console.log(usuarios);
+// console.log(usuarios);
