@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+html, input, button {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 62.5rem;
+  padding: 0 1.5rem;
+}
+
+
+#contenido {
+  padding: 2rem;
+}
+#contenido #titulo {
+  margin-bottom: 2rem;
+}
+#contenido .form-group {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+#contenido .lista {
+  background-color: pink;
+  list-style-position: inside;
+  padding: 1rem;
+  max-width: 24rem;
+  border-radius: 0.8rem;
+  box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.1);
+  color: black;
+  flex-grow: 1;
+}
+#contenido .lista .form {
+  display: flex;
+  align-items: center;
+}
+#contenido .lista .form .form-input {
+  border: 0;
+  padding: 0.5rem;
+  margin-block: 0.5rem;
+  border-radius: 0.5rem 0 0 0.5rem;
+  width: 100%;
+}
+#contenido .lista .form .form-input:focus {
+  outline: 0;
+}
+#contenido .lista .form .form-submit {
+  padding: 0.5rem;
+  border: 0;
+  border-radius: 0 0.5rem 0.5rem 0;
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.15);
+  transition: background-color 0.1s, color 0.1s;
+}
+#contenido .lista .form .form-submit:hover {
+  background-color: #1b0737;
+  color: white;
+}
+#contenido .lista.lista-abajo .form-input {
+  border-radius: 0.5rem;
+}
+#contenido .lista #abajo {
+  word-wrap: anywhere;
+}
+
+.btn-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+  flex-wrap: wrap;
+}
+.btn-group .btn {
+  border: 0;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: pink;
+}
+.btn-group .btn:hover {
+  background-color: #d9a4ad;
+}
+
+/****** DARK MODE ******/
+body {
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.dark-mode {
+  background-color: #1b0737;
+  color: white;
+}/*# sourceMappingURL=main.css.map */
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid red;
+}
+
+.item-eliminar {
+  cursor: pointer;
+}
