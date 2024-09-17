@@ -1,0 +1,21 @@
+h1 em {
+    color: red;
+}
+
+.imagen {
+    width: 20px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+.producto {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    background-color: pink;
+    margin-bottom: 1rem;
+    padding: .5rem;
+}
