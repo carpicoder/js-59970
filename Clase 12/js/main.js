@@ -178,9 +178,9 @@ let temperatura = 15;
 
 //! Desestructuración de arrays
 
-let productos = ["Silla", "Mesa", "Ventana", "Puerta"];
+// let productos = ["Silla", "Mesa", "Ventana", "Puerta"];
 
-let [primero, , , cuarto] = productos;
+// let [primero, , , cuarto] = productos;
 
-console.log(primero);
-console.log(cuarto);
+// console.log(primero);
+// console.log(cuarto);
